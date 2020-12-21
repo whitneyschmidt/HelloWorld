@@ -14,6 +14,7 @@ namespace HelloWorld
     /// </summary>
     /// 
     /// test
+    /// ///test
     internal sealed class Command
     {
         /// <summary>
