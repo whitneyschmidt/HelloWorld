@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Task = System.Threading.Tasks.Task;
 // this is a comment
+// this is another comment
 namespace HelloWorld
 {
     /// <summary>
