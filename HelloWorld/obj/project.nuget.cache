@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h7wv79fX2/YEW0fwyMCGrrWsQmsdmxDDtn33HCWS+UA5aDCmA2q3RMEg5eGyV+SYLfuZPthnaUliDCJANsYHDg==",
+  "dgSpecHash": "EFlluo9Vndgtw0upZKWHlPuBauRLgK4rSjmCl8ptNi3tgIeKCst9DrIfZn9OvfXC0t66WBin4ggMCf5XCGgupQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\whschm\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+  "projectFilePath": "C:\\Users\\whschm\\source\\repos\\HelloWorld80\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\whschm\\.nuget\\packages\\envdte\\8.0.2\\envdte.8.0.2.nupkg.sha512",
     "C:\\Users\\whschm\\.nuget\\packages\\envdte100\\10.0.3\\envdte100.10.0.3.nupkg.sha512",
