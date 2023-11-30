@@ -15,7 +15,7 @@ namespace HelloWorld
     /// <summary>
     /// Command handler
     /// </summary>
-    internal sealed class Command
+    internal sealed class Commandtest
     {
         /// <summary>
         /// Command ID.
@@ -30,7 +30,7 @@ namespace HelloWorld
         /// <summary>
         /// VS Package that provides this command, not null.
         /// </summary>
-        private readonly AsyncPackage package;
+        private readonly AsyncPackage package;test
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Command"/> class.
@@ -40,14 +40,14 @@ namespace HelloWorld
         /// <param name="commandService">Command service to add command to, not null.</param>
         private Command(AsyncPackage package, OleMenuCommandService commandService)
         {
-            this.package = package ?? throw new ArgumentNullException(nameof(package));
+            this.package = package ?? throw new ArgumentNullException(nameof(package));test
             commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
 
             var menuCommandID = new CommandID(CommandSet, CommandId);
             var menuItem = new MenuCommand(this.Execute, menuCommandID);
             commandService.AddCommand(menuItem);
         }
-
+        test
         /// <summary>
         /// Gets the instance of the command.
         /// </summary>
@@ -64,7 +64,7 @@ namespace HelloWorld
         {
             get
             {
-                return this.package;
+                return this.package;test
             }
         }
 
@@ -103,6 +103,6 @@ namespace HelloWorld
                 OLEMSGICON.OLEMSGICON_INFO,
                 OLEMSGBUTTON.OLEMSGBUTTON_OK,
                 OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST);
-        }
+        }test
     }
 }

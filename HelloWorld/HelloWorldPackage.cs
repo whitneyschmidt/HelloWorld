@@ -4,13 +4,13 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using Task = System.Threading.Tasks.Task;
 
-namespace HelloWorld
+namespace HelloWorldtes 
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
     /// </summary>
     /// <remarks>
-    /// <para>
+    /// <para>test
     /// The minimum requirement for a class to be considered a valid package for Visual Studio
     /// is to implement the IVsPackage interface and register itself with the shell.
     /// This package uses the helper classes defined inside the Managed Package Framework (MPF)
@@ -23,16 +23,16 @@ namespace HelloWorld
     /// To get loaded into VS, the package must be referred by &lt;Asset Type="Microsoft.VisualStudio.VsPackage" ...&gt; in .vsixmanifest file.
     /// </para>
     /// </remarks>
-    [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
+    [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]test
     [Guid(HelloWorldPackage.PackageGuidString)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
     public sealed class HelloWorldPackage : AsyncPackage
-    {
+    {test
         /// <summary>
         /// HelloWorldPackage GUID string.
         /// </summary>
         public const string PackageGuidString = "ea2dc747-824c-420e-9160-d3509da72df5";
-
+        test
         #region Package Members
 
         /// <summary>
