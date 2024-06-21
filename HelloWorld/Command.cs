@@ -11,7 +11,6 @@ using Task = System.Threading.Tasks.Task;
 // test
 // test
 // test
-// test
 namespace HelloWorld
 {
     /// <summary>
