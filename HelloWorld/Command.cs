@@ -7,11 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Task = System.Threading.Tasks.Task;
 //hellonewmain
-//New conflicting change?????
-
-/// <summary>
-/// new new
-/// </summary>
+//helloworld
 namespace HelloWorld
 {
     /// <summary>
